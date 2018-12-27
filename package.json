@@ -1,0 +1,21 @@
+{
+  "name": "xdk-server",
+  "version": "1.0.0",
+  "description": "Powerful API for XDK data",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Escamilla",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "hapi": "^17.8.1",
+    "hapi-require-https": "^3.0.0",
+    "mongoose": "^5.4.0",
+    "mongoose-int32": "^0.3.1",
+    "nodemon": "^1.18.9",
+    "request": "^2.88.0"
+  }
+}
